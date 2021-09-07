@@ -13827,6 +13827,7 @@ nav ul li a:hover {
 }
 
 .w3l-index6 {
+  position: relative;
   background-size: cover;
   background-image: linear-gradient(
       to right,
@@ -13837,6 +13838,25 @@ nav ul li a:hover {
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
+}
+
+.w3l-index6::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 10vw;
+  width: 360px;
+  height: 360px;
+  background-image: url(../images/logo-icon-light.png);
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+.w3l-index6 .container {
+  position: relative;
+  z-index: 1;
 }
 
 .w3l-index5 .grid-item {
@@ -13993,11 +14013,23 @@ nav ul li a:hover {
     font-size: 20px;
     line-height: 25px;
   }
+
+  .w3l-index6::before {
+    top: 20px;
+    width: 320px;
+    height: 320px;
+  }
 }
 
 @media all and (max-width: 568px) {
   .w3l-index5 .grid-item p {
     margin-top: 12px;
+  }
+
+  .w3l-index6::before {
+    top: 20px;
+    width: 320px;
+    height: 320px;
   }
 }
 
