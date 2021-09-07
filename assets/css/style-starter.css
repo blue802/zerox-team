@@ -13624,7 +13624,8 @@ nav ul li a:hover {
   background-image: linear-gradient(
       to right,
       rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 0.16) 60%
+      rgba(255, 255, 255, 0.16) 50%,
+      rgba(255, 255, 255, 0) 60%
     ),
     url(../images/banner.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -13839,6 +13840,14 @@ nav ul li a:hover {
   .w3l-index4 .link-list-menu {
     width: 281px;
   }
+}
+
+.w3l-index6 {
+  background-size: cover;
+  background-image: linear-gradient( to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77) ), url(../images/b2.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .w3l-index5 .grid-item {
