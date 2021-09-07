@@ -3064,7 +3064,7 @@ Author URL: http://w3layouts.com
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #dc4f72;
+  --primary: #cd001a;
   --secondary: #0d5fa8;
   --success: #28a745;
   --info: #17a2b8;
@@ -5566,38 +5566,38 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #dc4f72;
-  border-color: #dc4f72;
+  background-color: var(--primary);
+  border-color: var(--primary);
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #d62f58;
-  border-color: #cf2952;
+  background-color: var(--secondary);
+  border-color: var(--secondary);
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #d62f58;
-  border-color: #cf2952;
-  box-shadow: 0 0 0 0.2rem rgba(225, 105, 135, 0.5);
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 0.2rem var(--shadow-color);
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #dc4f72;
-  border-color: #dc4f72;
+  background-color: var(--primary);
+  border-color: var(--primary);
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cf2952;
-  border-color: #c4274e;
+  background-color: var(--secondary);
+  border-color: var(--secondary);
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(225, 105, 135, 0.5);
+  box-shadow: 0 0 0 0.2rem var(--shadow-color);
 }
 
 .btn-secondary {
@@ -5853,34 +5853,34 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #dc4f72;
-  border-color: #dc4f72;
+  color: var(--primary);
+  border-color: var(--primary);
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #dc4f72;
-  border-color: #dc4f72;
+  background-color: var(--primary);
+  border-color: var(--primary);
 }
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5);
+  box-shadow: 0 0 0 0.2rem var(--shadow-color);
 }
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #dc4f72;
+  color: var(--secondary);
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #dc4f72;
-  border-color: #dc4f72;
+  background-color: var(--secondary);
+  border-color: var(--secondary);
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5);
+  box-shadow: 0 0 0 0.2rem var(--shadow-color);
 }
 
 .btn-outline-secondary {
@@ -12840,11 +12840,12 @@ a.text-dark:focus {
 }
 
 :root {
-  --primary: #dc4f72;
-  --secondary: #0d5fa8;
-  --title-color: #2c3038;
+  --primary: #cd001a;
+  --secondary: #e72026;
+  --title-color: #231f20;
   --text-color: #5a5a5a;
   --light-bg-color: #f7f9fc;
+  --shadow-color: #ff8da1;
   --card-curve: 6px;
   --card-box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
   --card-hover-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
@@ -12874,11 +12875,11 @@ body,
 html {
   margin: 0;
   padding: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Comfortaa", cursive;
 }
 
 textarea {
-  font-family: "Nunito", sans-serif;
+  font-family: "Comfortaa", cursive;
 }
 
 * {
@@ -12980,7 +12981,7 @@ button,
 .btn,
 select {
   cursor: pointer;
-  font-family: "Nunito", sans-serif;
+  font-family: "Comfortaa", cursive;
 }
 
 a,
@@ -13005,7 +13006,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Comfortaa", cursive;
 }
 
 p {
@@ -13033,7 +13034,7 @@ p {
 
 a.brand-logo {
   color: var(--title-color);
-  font-family: "Nunito", sans-serif;
+  font-family: "Comfortaa", cursive;
   font-weight: bold;
   font-size: 36px;
 }
@@ -13063,7 +13064,7 @@ a.brand-logo img {
   color: var(--title-color);
   font-size: 46px;
   line-height: 55px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .header-section.white h3 {
@@ -13827,7 +13828,12 @@ nav ul li a:hover {
 
 .w3l-index6 {
   background-size: cover;
-  background-image: linear-gradient( to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77) ), url(../images/b2.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(247, 249, 252, 0.77),
+      rgba(247, 249, 252, 0.77)
+    ),
+    url(../images/b2.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -14987,10 +14993,11 @@ button.owl-next {
   width: 20%;
   color: #fff;
   border-radius: var(--card-curve);
+  transition: all 0.5s ease;
 }
 
 .w3l-footer .subscribe button:hover {
-  transition: all 0.5s ease;
+  background-color: var(--secondary);
 }
 
 .w3l-footer .subscribe button img {
@@ -16284,7 +16291,7 @@ div#small-dialog iframe {
   margin-bottom: 5px;
   display: inline-block;
   transition: 0.3s ease-in;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
