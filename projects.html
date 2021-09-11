@@ -79,7 +79,14 @@ Author URL: http://w3layouts.com
           Nulla mollis dapibus nunc, ut rhoncus
           turpis sodales quis. Integer sit amet mattis quam.</p>
       </div>
-      <div class="grid-view">
+      <div class="filter mb-5">
+          <select class="form-control">
+            <option>Tất cả</option>
+            <option>2020-2021</option>
+            <option>2019-2020</option>
+          </select>
+      </div>
+      <div class="grid-view mb-5">
         <div class="grid-item">
           <a href="/project-detail.html" class="d-block zoom">
             <img src="assets/images/b1.jpg" alt="" class="img-fluid news-image" />
@@ -153,6 +160,25 @@ Author URL: http://w3layouts.com
           </a>
         </div>
       </div>
+
+      <!-- pagination -->
+      <nav aria-label="Page Navigation">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
 </section>
 <!-- /projects section -->
