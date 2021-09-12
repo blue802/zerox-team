@@ -15350,12 +15350,12 @@ button.owl-next {
 }
 
 .bott-img:hover .icon-holder {
-  top: -40px;
+  top: 10px;
   background: var(--primary);
 }
 
 .bott-img:hover .mission {
-  top: -80px;
+  top: -20px;
 }
 
 .bott-img:hover .description {
