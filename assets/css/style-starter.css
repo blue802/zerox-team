@@ -13886,7 +13886,38 @@ nav ul li a:hover {
   position: relative;
   z-index: 1;
 }
+.w3l-mission1 {
+  position: relative;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(247, 249, 252, 0.77),
+      rgba(247, 249, 252, 0.77)
+    ),
+    url(../images/b2.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+  background-attachment: fixed;
+}
 
+.w3l-mission1::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10vw;
+  width: 240px;
+  height: 240px;
+  background-image: url(../images/logo-icon-light.png);
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+.w3l-mission1 .container {
+  position: relative;
+  z-index: 1;
+}
 .w3l-projects .grid-item {
   position: relative;
   border-radius: var(--card-curve);
@@ -14083,6 +14114,11 @@ nav ul li a:hover {
     width: 320px;
     height: 320px;
   }
+  .w3l-mission1::before {
+    top: 10px;
+    width: 240px;
+    height: 240px;
+  }
 }
 
 @media all and (max-width: 568px) {
@@ -14094,6 +14130,11 @@ nav ul li a:hover {
     top: 20px;
     width: 320px;
     height: 320px;
+  }
+  .w3l-mission1::before {
+    top: 10px;
+    width: 240px;
+    height: 240px;
   }
 }
 
@@ -15220,7 +15261,7 @@ button.owl-next {
   color: var(--title-color);
   text-transform: capitalize;
   margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .w3l-about1 .cwp4-text h4 {
@@ -15298,7 +15339,7 @@ button.owl-next {
   font-size: 26px;
   line-height: 32px;
   color: var(--title-color);
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .w3l-about2 p {
@@ -15516,7 +15557,7 @@ button.owl-next {
 }
 
 .w3l-about4 .history-info {
-  max-width: 700px;
+  max-width:  900px;
   margin: 0 auto;
 }
 
