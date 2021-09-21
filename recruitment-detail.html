@@ -16,66 +16,66 @@ Author URL: http://w3layouts.com
   <link rel="stylesheet" href="assets/css/style-starter.css">
 
   <!-- web fonts -->
-  <link href="//fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
 <!--header-->
 <header id="site-header" class="fixed-top">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg stroke">
-            <a class="navbar-brand" href="index.html">
-                <span class="fa fa-handshake-o"></span> Masterwork
-            </a>
-            <!-- if logo is image enable this   
-      <a class="navbar-brand" href="#index.html">
-          <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-      </a> -->
-            <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-                </span>
-            </button>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg stroke">
+      <a class="navbar-brand" href="/">
+        <img src="./assets/images/logo-vertical-dark.png" alt="ZeroX Team" title="ZeroX Team" />
+      </a>
+      <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+        <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+        </span>
+      </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item @@home-active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item @@about-active">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item @@contact-active">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item ml-lg-3 ml-0 mt-lg-0 mt-3">
-                        <a class="btn btn-outline-primary theme-button" href="contact.html">Schedule a Demo</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Dự án</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Về Chúng Tôi</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="services.html">Tuyển dụng</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Liên hệ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 </header>
 <!--/header-->
 <!-- services breadcrumbs -->
 <nav id="breadcrumbs" class="breadcrumbs">
   <div class="container page-wrapper">
-    <a href="index.html">Home</a> » <span class="breadcrumb_last" aria-current="page">Services</span>
+    <a href="index.html">Trang chủ</a> » <span class="breadcrumb_last" aria-current="page">Tuyển dụng</span>
   </div>
 </nav>
 <!-- /services breadcrumbs -->
 <section class="w3l-services1 py-5" id="services">
   <div class="container py-lg-3">
     <div class="header-section mb-5 text-center">
-      <h2>Our Services</h2>
+      <h2>Tuyển Dụng</h2>
     </div>
     <div class="row">
       <div class="col-lg-6">
-        <h3>Our Best Services</h3>
+        <h3>Mô tả công việc</h3>
         <h5 class="mt-lg-3 mt-2">Fusce fringilla tincidunt laoreet volutpat cras varius sit.
           metus vitae diam mauris.
         </h5>
@@ -114,9 +114,8 @@ Author URL: http://w3layouts.com
 <section class="w3l-services2" id="services">
   <div class="mobile-info py-5">
     <div class="container py-lg-3">
-      <div class="header-section mb-5 text-center mx-auto">
-        <h6 class="sub-title">The best products</h6>
-        <h3>How we make your strategy business </h3>
+      <div class="col-lg-6 py-5">
+        <h3>Yêu Cầu Kinh Nghiệm</h3>
         <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
           Nulla mollis dapibus nunc, ut rhoncus
           turpis sodales quis. Integer sit amet mattis quam.</p>
@@ -209,12 +208,8 @@ Author URL: http://w3layouts.com
 <section class="w3l-services3">
   <div class="about-inner-cont py-5">
     <div class="container py-lg-5">
-      <div class="header-section mb-5 text-center mx-auto">
-        <h6 class="sub-title">Features services</h6>
-        <h3>Some More Features </h3>
-        <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-          Nulla mollis dapibus nunc, ut rhoncus
-          turpis sodales quis. Integer sit amet mattis quam.</p>
+      <div class="col-lg-6 py-5">
+        <h3>Lợi Ích Khi Tham Gia</h3>
       </div>
 
       <div class="row content-ab-grids">
@@ -261,6 +256,20 @@ Author URL: http://w3layouts.com
       </div>
 
     </div>
+  </div>
+</section>
+<section class="w3l-services3">
+  <div class="about-inner-cont ">
+    <div class="container">
+      <div class="col-lg-6 py-5">
+        <h3>Địa Điểm</h3>
+      </div>
+    </div>
+  </div>
+  <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.8396925331817!2d108.14772551466335!3d16.073806443585205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218d68e8ccb03%3A0x64dc2cb3e38bbdaf!2zNTQgTmd1eeG7hW4gTMawxqFuZyBC4bqxbmcsIEhvw6AgS2jDoW5oIELhuq9jLCBMacOqbiBDaGnhu4N1LCDEkMOgIE7hurVuZyA1NTAwMDAsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1631776350158!5m2!1svi!2s"
+        frameborder="0" allowfullscreen=""></iframe>
   </div>
 </section>
 <footer>
