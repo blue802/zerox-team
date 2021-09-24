@@ -16603,10 +16603,8 @@ div#small-dialog iframe {
   box-shadow: var(--card-hover-box-shadow);
   transform: var(--transformY);
   transition: 0.3s ease-in-out;
-  overflow: hidden;
-  -webkit-filter: blur(2px) brightness(0.8);
-  filter: blur(2px) brightness(0.8);
 }
+
 /* .w3l-projects .grid-item:hover a.zoom img {
   overflow: hidden;
   -webkit-filter: blur(2px) brightness(0.8);
